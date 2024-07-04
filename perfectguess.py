@@ -20,7 +20,7 @@ print(points1)
 # level 2
 
 import random
-number = random.randint(1,40) # the limit of guessing is 20
+number = random.randint(1,40) # the limit of guessing is 40
 guess = int(input("enter the number"))
 attemts = 1
 # the game is about guessing a number
@@ -40,8 +40,9 @@ points2 = attemts
 print(points2)
 
 # you have crossed level 2
+# now it is time for the hard level,level 3
 import random
-number = random.randint(1,100) # the limit of guessing is 20
+number = random.randint(1,100) # the limit of guessing is 100
 guess = int(input("enter the number"))
 attemts = 1 
 # the game is about guessing a number
@@ -72,6 +73,7 @@ def total():
       print("you are second")
    else :
       print("you are first")
-total()
+total() # this will print the total score of your game
+
 
 # level 3 finished you won with the score you scored 
